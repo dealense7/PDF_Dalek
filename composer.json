@@ -1,0 +1,24 @@
+{
+    "name": "dalek/pdf",
+    "description": "manipulate pdf documents",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dalek\\Pdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gurami",
+            "email": "dealense@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dalek\\Pdf\\PdfServiceProvider"
+            ]
+        }
+    }
+}
