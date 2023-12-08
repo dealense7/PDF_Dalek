@@ -13,6 +13,7 @@ modify existing tomes, or extract secrets from parchment, this toolkit offers a 
 - [ ] Cut Pages <sub><sup>(int $pageFrom, int $pageTo): File</sup></sub>
 - [ ] Get Total Pages <sub><sup>(): int</sup></sub>
 - [ ] Get Size <sub><sup>(): int</sup></sub>
+- [ ] Get Document <sub><sup>(): File</sup></sub>
 - [ ] Remove Pages <sub><sup>(array $pages): File</sup></sub>
 - [ ] Merge PDF <sub><sup>(File $document): File</sup></sub>
 - [ ] Export <sub><sup>(string $path, string $fileName): File</sup></sub>
